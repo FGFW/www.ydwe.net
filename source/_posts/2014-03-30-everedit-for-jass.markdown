@@ -17,6 +17,8 @@ Everedit3.2起加入了扩展包的功能，极大地降低了扩展的安装难
 - [Everedit3.2下载地址](http://update.everedit.net/beta.php)
 - [Jass扩展包](https://github.com/actboy168/jass_for_everedit/blob/master/jass.ezip?raw=true)
 
+<!-- more -->
+
 ##语法高亮
 
 支持Jass、vJass还有预处理的语法，包括TESH在内，这应该是唯一支持预处理的语法的语法高亮了。如果你是一个YDWE的重度使用者，你一定会对它爱不释手。完美支持YDWE的Jass代码，让我们来看看效果吧
