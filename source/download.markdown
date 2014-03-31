@@ -7,22 +7,16 @@ sharing: true
 footer: true
 ---
 
-#[1.27.4测试版](http://pan.baidu.com/s/1nt4qAO5)
+#[1.27.5测试版](http://pan.baidu.com/s/1c0nExX2)
 
-
-* **New**  配置程序新增字体选项
-* **New**  配置程序新增新的JassHelper编译模式
-* **New**  新增war3内的虚拟mpq插件
-* **New**  Lua引擎新增jass.storm库
-* **New**  “jass运行时错误检测”插件新增使用未初始化栈中的值的错误
-* **Chg**  优化攻击通知的文本
-* **Fix**  修正modelfile类型逆天变量不能保存的问题
-* **Fix**  修正“jass运行时错误检测”插件在使用未初始化变量的错误中崩溃的问题
-* **Fix**  修正不能异步初始化Lua引擎的问题
-* **Fix**  修正Lua引擎在1.20下崩溃的问题
-* **Fix**  修正“泄漏检测”插件在1.20下崩溃的问题
-* **Fix**  修正“泄漏检测”插件的创建位置有1的误差的问题
-
+* **New**  增加魔兽对Direct3D 9的支持
+* **New**  Lua引擎新增初始化指令'exec-lua: xxx'
+* **New**  预处理器增加地图所在文件夹的引用路径
+* **Chg**  替换日志库为boost::log
+* **Chg**  去掉条件中的发布命令UI
+* **Fix**  修正修改技能冷却时间有时候失效的问题
+* **Fix**  修正GetRandomSubGroupEnum有除0错误的问题
+* **Fix**  修正逆天选取单位的一个错误
 
 ---
 
