@@ -15,7 +15,7 @@ Everedit3.2起加入了扩展包的功能，极大地降低了扩展的安装难
 首先下载Everedit和Jass扩展包，解压Everedit到任意位置，打开Everedit，将Jass扩展包拖到Everedit上，然后点确定即可。
 
 - [Everedit3.2下载地址](http://update.everedit.net/beta.php)
-- [Jass扩展包](https://github.com/actboy168/jass_for_everedit/blob/master/jass.ezip?raw=true)
+- [Jass扩展包](http://pan.baidu.com/s/1u4exo)
 
 <!-- more -->
 
@@ -42,7 +42,7 @@ Everedit3.2起加入了扩展包的功能，极大地降低了扩展的安装难
 
 如果你是一个YDWE纯Jass/vJass的使用者，我不推荐你使用YDWE内置的Jass编辑器(也就是TESH)作为你的主力编辑器，而是使用外置编辑器，比如Everedit，当然Notepad++也是个不错的选择。
 
-YDWE支持脱离地图的脚本，你可以简单地把你的Jass脚本和你的地图放在同一个目录，然后在自定义脚本区内添加以下代码。这样你就可以在使用内置的编辑器来编辑你的地图脚本了。
+YDWE支持脱离地图的脚本，你可以简单地把你的Jass脚本和你的地图放在同一个目录，然后在自定义脚本区内添加以下代码。这样你就可以在使用外置的编辑器来编辑你的地图脚本了。
 
 ```
 #include "脚本A路径.j"
