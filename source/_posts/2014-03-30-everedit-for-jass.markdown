@@ -15,7 +15,7 @@ Everedit3.2起加入了扩展包的功能，极大地降低了扩展的安装难
 首先下载Everedit和Jass扩展包，解压Everedit到任意位置，打开Everedit，将Jass扩展包拖到Everedit上，然后点确定即可。
 
 - [Everedit3.2下载地址](http://update.everedit.net/beta.php)
-- [Jass扩展包](http://pan.baidu.com/s/1u4exo)
+- [Jass扩展包](http://pan.baidu.com/s/1bnnG1ZL)
 
 <!-- more -->
 
