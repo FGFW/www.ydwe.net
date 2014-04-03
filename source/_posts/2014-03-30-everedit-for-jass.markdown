@@ -4,7 +4,7 @@ title: "Jass编辑器推荐 Everedit"
 date: 2014-03-30 21:20:09 +0800
 comments: true
 author: actboy168
-categories: 工具
+categories: Tool
 ---
 
 从JassCraft到JassShopPro，再到Notepad++，以及这次的主角Everedit，我换了不少Jass的编辑器。算起来，我一周大概有50个小时以上在写代码，所以一个称手的编辑器对我来说至关重要。先不说对Jass的支持，单从一个通用文本编辑器的角度来看，Everedit也是我用过的最好用的编辑器（比如我现在就正在用Everedit写这篇博文）。

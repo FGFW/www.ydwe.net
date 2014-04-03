@@ -4,7 +4,7 @@ title: "Lua引擎兼容性修改指导"
 date: 2014-04-03 00:09:33 +0800
 comments: true
 author: actboy168
-categories: YDWE使用
+categories: YDWE
 ---
 
 刚开始做Lua引擎时，只是抱着玩玩的心态，很多东西没有认真地设计。所以在YDWE1.27，Lua引擎进行了大规模的修改，为了确保你的代码可以顺利过渡到1.28以上的YDWE，请仔细阅读文本。注：1.27支持新旧两种写法，但1.28只会支持新写法。
