@@ -23,20 +23,20 @@ Everedit3.2起加入了扩展包的功能，极大地降低了扩展的安装难
 
 支持Jass、vJass还有预处理的语法，包括TESH在内，这应该是唯一支持预处理的语法的语法高亮了。如果你是一个YDWE的重度使用者，你一定会对它爱不释手。完美支持YDWE的Jass代码，让我们来看看效果吧
 
-![everedit-1](/images/blog/everedit-1.jpg)
+![everedit-1](/images/blog/2014/everedit-1.jpg)
 
 ##函数提示
 
 支持所有cj和bj函数的提示，包括参数列表和中文翻译，以前有人为了背那些cj/bj函数，还特意弄个中英文对照的UI。有了它，你还需要翻UI？当词典用都行！
 
-![everedit-2](/images/blog/everedit-2.jpg)
-![everedit-3](/images/blog/everedit-3.jpg)
+![everedit-2](/images/blog/2014/everedit-2.jpg)
+![everedit-3](/images/blog/2014/everedit-3.jpg)
 
 ##内置JassHelper支持
 
 你可以在Everedit直接使用JassHelper来检查语法
 
-![everedit-4](/images/blog/everedit-4.jpg)
+![everedit-4](/images/blog/2014/everedit-4.jpg)
 
 ##题外话
 
