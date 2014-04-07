@@ -4,7 +4,7 @@ title: "《魔兽争霸III》版2048"
 date: 2014-04-05 12:08:16 +0800
 comments: true
 author: actboy168
-categories: example
+categories: Example
 ---
 
 [**2048**](http://baike.baidu.com/view/12517190.htm)这个小游戏最近真是很火。这可能跟它操作简单却不乏趣味有关。它的操作很简单，你只需要按上下左右，相同的数字就会自动合并，而游戏的目标就正如它的名字一样，凑出2048就算胜利。
