@@ -8,6 +8,8 @@ categories: Other
 
 周末研究了一下从c++调用php，看起来是一件很简单的事却折腾了我两天，总之是被坑惨了。虽然php是用c写的，不过看起来开发组只管自己用得溜就算了，完全没有考虑一般使用者的感受。
 
+<!-- more -->
+
 以下是我在msvc2010下编译php5.4.27的记录。
 
 ##坑之ZTS
@@ -26,8 +28,8 @@ error LNK2001: 无法解析的外部符号 __imp__executor_globals
 
 完全想不出不通过_WIN32宏来生成PHP_WIN32、ZEND_WIN32宏的理由，总之你是需要自己来定义了。还有为什么会有PHP_WIN32和ZEND_WIN32两个宏呢。
 ```
-#	define ZEND_WIN32
-#	define PHP_WIN32
+#define ZEND_WIN32
+#define PHP_WIN32
 ```
 另外，虽然php不会理会_WIN32宏，但却会理会_WIN64宏。
 
@@ -82,4 +84,6 @@ php完全可以增加编译时的检查，以保证不会有类似的abi错误�
 
 ---
 
+<br>
+<br>
 最后吐槽下php的代码到处都充斥着丑陋的TSRM宏，无论是否开启ZTS，tsrm_ls都应该作为一个外部参数传入，php不应该也没必要在内部保留自己的状态，无论是否开启ZTS。
