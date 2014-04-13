@@ -3,6 +3,7 @@ layout: post
 title: "坑爹的php"
 date: 2014-04-07 09:41:54 +0800
 comments: true
+author: actboy168
 categories: Other
 ---
 
@@ -77,6 +78,18 @@ time.inl(36): error C2664: “_ctime32”: 不能将参数 1 从“const time_t 
 _zend_executor_globals是php中一个很重要的结构体(也就是EG(xxx)),这个结构体中包含了一个[OSVERSIONINFOEX](http://msdn.microsoft.com/en-us/library/windows/desktop/ms724833%28v=vs.85%29.aspx)成员,而OSVERSIONINFOEX的长度会根据UNICODE宏的定义与否有所不同，php默认的编译选项是没有定义UNICODE宏的，如果你的工程定义了UNICODE宏，那么你就会获得很多迷のbug。ZEND_DEBUG也会有同样的问题，如果你编译时有--enable-debug，就必须定义ZEND_DEBUG，反之就不能定义。
 
 php完全可以增加编译时的检查，以保证不会有类似的abi错误，但它没有这么做。
+
+##坑之导出的全局变量
+
+你可能无法想象，php不但很随意地使用了全局变量，并且还很随意地把它直接导出了。这种莫名其妙的设定遍地都是，不过我今天要说的是编译的坑。
+
+表面上看，你在c++里直接使用php的头文件并没有什么问题，因为php在每个导出函数前都加了extern "C"，以保证c++编译器能找到php导出的函数。但这个并没有包括它导出的全局变量，所以当你在c++中使用它导出的全局变量时，就会得到一个链接错误。所以你必须给每个你要引用的php头文件加上extern "C"，就像这样
+```
+extern "C" {
+#include <zend.h>
+}
+```
+显然它原来自己加的extern "C"就没用了，倒不如你就像lua那样宣称我就是要用c，你要用c++就自己加extern "C"得了，做事做一半就不管了，算是个什么意思。
 
 ##坑之debug模式
 
