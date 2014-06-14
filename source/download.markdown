@@ -7,16 +7,9 @@ sharing: true
 footer: true
 ---
 
-#[1.27.5测试版](http://pan.baidu.com/s/1c0nExX2)
+#[1.27.6正式版](http://pan.baidu.com/s/1sjsGGFz)
 
-* **New**  增加魔兽对Direct3D 9的支持
-* **New**  Lua引擎新增初始化指令'exec-lua: xxx'
-* **New**  预处理器增加地图所在文件夹的引用路径
-* **Chg**  替换日志库为boost::log
-* **Chg**  去掉条件中的发布命令UI
-* **Fix**  修正修改技能冷却时间有时候失效的问题
-* **Fix**  修正GetRandomSubGroupEnum有除0错误的问题
-* **Fix**  修正逆天选取单位的一个错误
+* **Fix**  修正路径最后一位为反斜杠时预处理器会出错的问题
 
 ---
 
