@@ -7,13 +7,18 @@ sharing: true
 footer: true
 ---
 
-#[1.28.0测试版](http://pan.baidu.com/s/1qWPUjDU)
+#[1.28.1测试版](http://pan.baidu.com/s/1pJFPHWZ)
 
-* **New**  全新的TESH，Jass语法高亮插件。
-* **New**  新增若干JAPI函数。
-* **Chg**  Boost更新到1.56。
+* **New**  替换NewTesh为Tesh。
+* **New**  Lua引擎增加globals库，用于读/写jass中的全局变量。
+* **New**  Lua引擎common库支持遍历cj函数。
+* **Chg**  Boost更新到1.57。
+* **Chg**  Lua更新到5.3.0(rc1)。
+* **Chg**  CRT更新到msvc120。
+* **Fix**  修正配置程序中读取中文字体的配置项失败的问题。
+* **Fix**  修正Lua引擎hook库在多局游戏中没有释放的问题。
+* **Fix**  修正部分科技的文本没有翻译的问题。
 * **Fix**  修正“触发单位”等函数在嵌套的逆天计时器中有错误的问题。
-* **Fix**  修正“冲锋”和“月神箭”有结构体释放错误的问题。
 
 #[1.27.6正式版](http://pan.baidu.com/s/1sjsGGFz)
 
