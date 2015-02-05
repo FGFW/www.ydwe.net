@@ -7,18 +7,24 @@ sharing: true
 footer: true
 ---
 
-#[1.28.1测试版](http://pan.baidu.com/s/1pJFPHWZ)
+#[1.28.2测试版](http://pan.baidu.com/s/1c0B3Rwc)
 
-* **New**  替换NewTesh为Tesh。
-* **New**  Lua引擎增加globals库，用于读/写jass中的全局变量。
-* **New**  Lua引擎common库支持遍历cj函数。
-* **Chg**  Boost更新到1.57。
-* **Chg**  Lua更新到5.3.0(rc1)。
-* **Chg**  CRT更新到msvc120。
-* **Fix**  修正配置程序中读取中文字体的配置项失败的问题。
-* **Fix**  修正Lua引擎hook库在多局游戏中没有释放的问题。
-* **Fix**  修正部分科技的文本没有翻译的问题。
-* **Fix**  修正“触发单位”等函数在嵌套的逆天计时器中有错误的问题。
+* **New**  新增颜色插件
+* **New**  重写UI加载器，现在会用新的方式加载UI。
+* **New**  Lua引擎新增jass.console库
+* **New**  Lua引擎新增部分os库的函数
+* **Chg**  底层的内部编码由ansi改为unicode
+* **Chg**  StormLib更新到9.11
+* **Chg**  Lua更新到5.3.0
+* **Chg**  Lua引擎storm.load参数编码由ansi改为utf8
+* **Fix**  修正智能导入没有默认生效的问题
+* **Fix**  修正暂停腐烂[BJ]选项无效的BUG
+* **Fix**  修正BJDebugMsg中关于不会被记录在录像中的说明错误
+* **Fix**  修正疾病伤害的说明错误
+* **Fix**  修正通魔选项中关于"没有"的说明错误
+* **Fix**  修正科技的"应用于所有单位"选项的错误(实为"只应用于之后生产的单位")
+* **Fix**  修正UI"进入指定单位的范围"的限制范围没有起作用的问题
+
 
 #[1.27.6正式版](http://pan.baidu.com/s/1sjsGGFz)
 
