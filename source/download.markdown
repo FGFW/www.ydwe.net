@@ -7,12 +7,15 @@ sharing: true
 footer: true
 ---
 
-#[1.28.3测试版](http://pan.baidu.com/s/1o6vAxOA)
+#[1.28.4测试版](http://pan.baidu.com/s/1pJqjupP)
 
+* **Chg**  颜色插件默认不开启
+* **Chg**  Lua引擎storm.save现在会创建文件夹
+* **Fix**  修正部分UI位置混乱的问题
 * **Fix**  修正部分中文路径处理错误的问题
-* **Fix**  修正配置程序没有带出的问题
-* **Fix**  修正禁用逆天插件时没有禁用逆天UI的问题
-* **Fix**  修正UI次序混乱的问题
+* **Fix**  修正配置程序默认值没有正确处理的问题
+* **Fix**  修正自定义物体ID错误的问题
+* **Fix**  修正逆天计时器区域判断错误的问题
 
 #[1.27.6正式版](http://pan.baidu.com/s/1sjsGGFz)
 
