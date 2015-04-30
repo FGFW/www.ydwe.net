@@ -7,16 +7,11 @@ sharing: true
 footer: true
 ---
 
-#[1.28.5正式版](http://pan.baidu.com/s/1gdrLO11)
+#[1.28.6正式版](http://pan.baidu.com/s/1pJsn22Z)
 
-* **Chg**  Lua引擎Lua版本由5.2.3升级到5.2.4
-* **Chg**  重写多开插件的IPC方案，减少死锁的情况
-* **Fix**  修正中文路径无法测试的问题
-* **Fix**  修正UI地图初始化事件不在第一位的问题
-* **Fix**  修正部分stormlib函数无法使用的问题
-* **Fix**  修正版本号没有显示的问题
-* **Fix**  修正逆天计时器参数传递的错误
-* **Fix**  修正多开时在某些情况下看不到别人的主机的问题
+* **Fix**  修正不能显示cjass版本信息的问题
+* **Fix**  修正Lua引擎jass.hook会崩溃的问题
+* **Fix**  修正逆天计时器有时候会重复传递参数的问题
 
 #[1.27.6正式版](http://pan.baidu.com/s/1sjsGGFz)
 
