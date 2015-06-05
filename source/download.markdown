@@ -7,18 +7,21 @@ sharing: true
 footer: true
 ---
 
-#[1.29.0测试版](http://pan.baidu.com/s/1kT1kn6v)
+#[1.29.1测试版](http://pan.baidu.com/s/1jScWm)
 
-* **New**  局域网测试支持
-* **New**  新增创建计时器窗口的UI
-* **New**  Lua引擎，jass.hook库现在可以访问到hook函数
-* **New**  Lua引擎，jass.slk库增加misc表
-* **New**  Lua引擎，新增jass.debug库
-* **Chg**  禁用JAPI后，会屏蔽JAPI的相关UI
-* **Chg**  Stromlib增加对unicode的支持
-* **Chg**  字体插件增加对unicode的支持
-* **Chg**  合并编译时和运行时的物编读取的功能，现在它们的表现会更加接近
-* **Fix**  修正配置需要重启ydwe才生效的问题
+* **New**  新增插件，去掉地图大小限制
+* **New**  新增jass.debug的演示
+* **New**  局域网测试增加多人模式
+* **Chg**  关闭魔兽后，自动关闭ydhost进程
+* **Chg**  更新Lua5.3.1
+* **Chg**  多开插件机制重写，以便支持服务器主机
+* **Chg**  虚拟mpq现在会在魔兽和编辑器里同时加载war3目录
+* **Fix**  修正没有清理ydhost进程的问题
+* **Fix**  修正漏了UI 获取物体属性 (整数) 的问题
+* **Fix**  修正读取UI文件时没有忽略utf8 bom的问题
+* **Fix**  修正地形突破器没有生效的问题
+* **Fix**  修正服务器主机的若干bug
+
 
 #[1.28.6正式版](http://pan.baidu.com/s/1pJsn22Z)
 
