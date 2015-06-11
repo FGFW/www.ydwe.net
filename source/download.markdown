@@ -23,11 +23,12 @@ footer: true
 * **Fix**  修正服务器主机的若干bug
 
 
-#[1.28.6正式版](http://pan.baidu.com/s/1pJsn22Z)
+#[1.28.7正式版](http://pan.baidu.com/s/1gd0DmJT)
 
-* **Fix**  修正不能显示cjass版本信息的问题
-* **Fix**  修正Lua引擎jass.hook会崩溃的问题
-* **Fix**  修正逆天计时器有时候会重复传递参数的问题
+* **Fix**  修正D3D9渲染引擎没有生效的问题
+* **Fix**  修正配置需要重启ydwe才生效的问题
+* **Fix**  修正读取UI文件时没有忽略utf8 bom的问题
+* **Fix**  修正地形突破器没有生效的问题
 
 ---
 
