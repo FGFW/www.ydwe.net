@@ -7,15 +7,17 @@ sharing: true
 footer: true
 ---
 
-#[1.29.2测试版](http://pan.baidu.com/s/1o6AA3eq)
+#[1.29.3测试版](http://pan.baidu.com/s/12VYAM)
 
-* **New**  新增Japi读写Buff数据
-* **New**  新增Japi读写Item数据
-* **New**  Lua引擎新增函数jass.debug.current_pos，可以获取当前Jass的运行的位置
-* **Chg**  Lua引擎移除部分不安全的函数
-* **Chg**  Lua引擎修正部分栈泄漏
-* **Fix**  修正D3D9渲染引擎没有生效的问题
-* **Fix**  修正魔兽路径有空格时，无法测试的问题
+* **New** Lua引擎新增键盘鼠标消息库
+* **New** Lua引擎新增发布本地命令库
+* **New** Lua引擎新增大数库
+* **New** Lua引擎支持中文路径
+* **New** Lua引擎增加日志库
+* **New** 新增智能施法演示
+* **Chg** Lua引擎在CJ函数崩溃时显示函数名
+* **Chg** 重写Lua引擎的加载器
+* **Fix** 修正Lua引擎线程里的错误看不到的问题
 
 #[1.28.7正式版](http://pan.baidu.com/s/1gd0DmJT)
 
