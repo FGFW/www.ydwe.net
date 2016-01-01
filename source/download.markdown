@@ -7,17 +7,10 @@ sharing: true
 footer: true
 ---
 
-#[1.29.3测试版](http://pan.baidu.com/s/12VYAM)
+#[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
-* **New** Lua引擎新增键盘鼠标消息库
-* **New** Lua引擎新增发布本地命令库
-* **New** Lua引擎新增大数库
-* **New** Lua引擎支持中文路径
-* **New** Lua引擎增加日志库
-* **New** 新增智能施法演示
-* **Chg** Lua引擎在CJ函数崩溃时显示函数名
-* **Chg** 重写Lua引擎的加载器
-* **Fix** 修正Lua引擎线程里的错误看不到的问题
+* **New** 增加了几个新的注释
+* **Fix** 修正地形突破器失效的问题
 
 #[1.28.7正式版](http://pan.baidu.com/s/1gd0DmJT)
 
