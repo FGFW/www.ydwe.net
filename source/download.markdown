@@ -7,17 +7,20 @@ sharing: true
 footer: true
 ---
 
+#[1.30.0测试版](http://pan.baidu.com/s/1i4qjl3Z)
+
+* **New** 增加对war3 1.27a的支持
+* **New** Japi支持读写开关技能的图标
+* **New** Lua引擎支持技能的鼠标事件
+* **New** Lua引擎支持读取技能按钮数据
+* **Chg** 日志库重写
+* **Chg** 去掉对部分boost库的依赖
+* **Fix** 修正有返回值的发布命令UI失效的问题
+
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
 * **New** 增加了几个新的注释
 * **Fix** 修正地形突破器失效的问题
-
-#[1.28.7正式版](http://pan.baidu.com/s/1gd0DmJT)
-
-* **Fix**  修正D3D9渲染引擎没有生效的问题
-* **Fix**  修正配置需要重启ydwe才生效的问题
-* **Fix**  修正读取UI文件时没有忽略utf8 bom的问题
-* **Fix**  修正地形突破器没有生效的问题
 
 ---
 
