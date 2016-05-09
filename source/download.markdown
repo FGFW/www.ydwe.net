@@ -7,15 +7,17 @@ sharing: true
 footer: true
 ---
 
-#[1.30.0测试版](http://pan.baidu.com/s/1i4qjl3Z)
+#[1.30.1测试版](http://pan.baidu.com/s/1qYAEAAw)
 
-* **New** 增加对war3 1.27a的支持
-* **New** Japi支持读写开关技能的图标
-* **New** Lua引擎支持技能的鼠标事件
-* **New** Lua引擎支持读取技能按钮数据
-* **Chg** 日志库重写
-* **Chg** 去掉对部分boost库的依赖
-* **Fix** 修正有返回值的发布命令UI失效的问题
+* **New** Lua引擎从5.2.1升级到5.3.1
+* **New** Japi现在可以自动帮你计算暗图标
+* **New** 新的Japi，图标融合
+* **New** 新的Japi，单位晕眩
+* **New** 新的Japi，单位变身
+* **New** 新增11平台的RPG积分UI
+* **Chg** 启动logo现在会和WE自带的保持一致
+* **Chg** 虚拟mpq现在支持在配置里指定路径
+* **Fix** 修正读取技能冷却罕见情况下崩溃的问题
 
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
