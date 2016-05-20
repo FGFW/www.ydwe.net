@@ -37,7 +37,7 @@ categories: YDWE
 
 这段代码等价于你在地图内导入了一个名字为"filename",内容为"script"的脚本
 
-你可能迫不及待想要尝试写Lua了,不过在这里我要建议你在运行自己的Lua脚本之前,先**单独**运行一次以下代码(通过```call Cheat("exec-lua: MU_console.lua")```)
+你可能迫不及待想要尝试写Lua了,不过在这里我要建议你在运行自己的Lua脚本之前,先**单独**运行一次以下代码(通过```call Cheat("exec-lua: MU_console")```)
 
 ```lua
 <?import("MU_console.lua")[[
