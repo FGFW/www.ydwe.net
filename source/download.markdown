@@ -7,17 +7,15 @@ sharing: true
 footer: true
 ---
 
-#[1.30.1测试版](http://pan.baidu.com/s/1qYAEAAw)
+#[1.30.2测试版](http://pan.baidu.com/s/1o7X6AUI)
 
-* **New** Lua引擎从5.2.1升级到5.3.1
-* **New** Japi现在可以自动帮你计算暗图标
-* **New** 新的Japi，图标融合
-* **New** 新的Japi，单位晕眩
-* **New** 新的Japi，单位变身
-* **New** 新增11平台的RPG积分UI
-* **Chg** 启动logo现在会和WE自带的保持一致
-* **Chg** 虚拟mpq现在支持在配置里指定路径
-* **Fix** 修正读取技能冷却罕见情况下崩溃的问题
+* **New** Lua引擎增加handle的引用api
+* **New** Lua引擎现在支持支持任意table和userdata的排序次序(不再是随机)
+* **New** 补丁包支持加载storm.dll 
+* **New** 若干新的japi和其演示
+* **Chg** Lua引擎从5.3.1升级到5.3.3
+* **Fix** 修正Lua引擎读取jass全局数组时崩溃的问题
+* **Fix** 修正对一个war1.27补丁包的支持的bug
 
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
