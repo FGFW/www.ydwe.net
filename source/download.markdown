@@ -7,15 +7,16 @@ sharing: true
 footer: true
 ---
 
-#[1.30.2测试版](http://pan.baidu.com/s/1o7X6AUI)
+#[1.30.3测试版](http://pan.baidu.com/s/1jIqGmea)
 
-* **New** Lua引擎增加handle的引用api
-* **New** Lua引擎现在支持支持任意table和userdata的排序次序(不再是随机)
-* **New** 补丁包支持加载storm.dll 
-* **New** 若干新的japi和其演示
-* **Chg** Lua引擎从5.3.1升级到5.3.3
-* **Fix** 修正Lua引擎读取jass全局数组时崩溃的问题
-* **Fix** 修正对一个war1.27补丁包的支持的bug
+* **New** 新增自动适应当前分辨率的选项（和固定窗口比例互斥）
+* **New** Lua引擎现在支持使用vscode进行调试
+* **New** ydwe/jass/native目录下的文件现在会注入地图里，且不会做任何语法检查
+* **Chg** Lua引擎现在默认关闭sleep
+* **Chg** Lua引擎读取本地文件现在使用utf8路径
+* **Fix** 修正Lua引擎gchash计算的一个错误
+* **Fix** 修正几个japi函数无法保存的问题
+* **Fix** 修正几个日志库的兼容性问题
 
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
