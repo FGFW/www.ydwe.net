@@ -7,16 +7,13 @@ sharing: true
 footer: true
 ---
 
-#[1.30.3测试版](http://pan.baidu.com/s/1jIqGmea)
+#[1.30.4测试版](http://pan.baidu.com/s/1mh6CpOs)
 
-* **New** 新增自动适应当前分辨率的选项（和固定窗口比例互斥）
-* **New** Lua引擎现在支持使用vscode进行调试
-* **New** ydwe/jass/native目录下的文件现在会注入地图里，且不会做任何语法检查
-* **Chg** Lua引擎现在默认关闭sleep
-* **Chg** Lua引擎读取本地文件现在使用utf8路径
-* **Fix** 修正Lua引擎gchash计算的一个错误
-* **Fix** 修正几个japi函数无法保存的问题
-* **Fix** 修正几个日志库的兼容性问题
+* **New** 使用stormlib替换JassHelper中sfmpq，提高读写地图的成功率
+* **New** 新的逆天UI，收纳盒
+* **Chg** 更新调试器至0.0.12
+* **Chg** 去掉编码转换的菜单
+* **Fix** 修正启用调试器后，重开游戏崩溃的问题
 
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
