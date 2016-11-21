@@ -7,13 +7,11 @@ sharing: true
 footer: true
 ---
 
-#[1.30.4测试版](http://pan.baidu.com/s/1mh6CpOs)
+#[1.30.5正式版](http://pan.baidu.com/s/1i4LBZLF)
 
-* **New** 使用stormlib替换JassHelper中sfmpq，提高读写地图的成功率
-* **New** 新的逆天UI，收纳盒
-* **Chg** 更新调试器至0.0.12
-* **Chg** 去掉编码转换的菜单
-* **Fix** 修正启用调试器后，重开游戏崩溃的问题
+* **Fix** 修正无法修改字体的问题
+* **Fix** 修正缺少crt无法启动的问题
+* **Fix** 修正win10下配置程序里的固定到任务栏会导致启动YDWE的问题
 
 #[1.29.4正式版](http://pan.baidu.com/s/1gdULikN)
 
