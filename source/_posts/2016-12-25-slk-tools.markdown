@@ -4,7 +4,7 @@ title: "SLK工具评测"
 date: 2016-12-25 01:49:00 +0800
 comments: true
 author: 最萌小汐
-categories: tool
+categories: Tool
 ---
 
 目前国内有3款SLK工具
