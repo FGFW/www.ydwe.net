@@ -35,10 +35,8 @@ footer: true
 * **Fix** 修正休眠触发器的演示没有正确运行的问题
 * **Fix** 修正逆天计时器的演示使用了一些过时写法的问题
 
-#[地图优化器 Wc3MapMax++1.3.12](http://pan.baidu.com/s/1slTINRB)
 
-* 修正无法读取新版stormlib创建的地图的问题
-* 修正一个崩溃
+#[W3x2Lni v1.2](http://pan.baidu.com/s/1hrEpucs)
 
 ---
 
