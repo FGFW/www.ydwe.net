@@ -32,7 +32,7 @@ footer: true
 * **Fix** 修正逆天计时器的演示使用了一些过时写法的问题
 
 
-#[W3x2Lni v1.5.1](http://pan.baidu.com/s/1jIOCTxG)
+#[W3x2Lni v1.6](http://pan.baidu.com/s/1dEFKDPZ)
 
 * 地图优化和管理工具
 
